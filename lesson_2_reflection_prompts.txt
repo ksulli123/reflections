@@ -5,7 +5,8 @@ It creates a .git folder that tells that the folder/subdirectory is a git reposi
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
-
+The staging area is different from the working directory as the working directory is the area where the changes are made, whilst the repo is where the changes to be committed area made. The staging area is a temporary space to add the changes made in the working directory into the repo.
+The staging area offers value as it creates an area to tell git which files or changes you want to commit.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
@@ -20,3 +21,6 @@ the diagram the way we do?
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+Pros of gits automatic merging is less tedious but loses the capacity to choose when to create checkpoints
+
